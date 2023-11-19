@@ -191,123 +191,123 @@ function ChangeNum (kana:string) {
         Consos=5;
     }
     if(kana=="ん"){
-        Vowel=17;
+        Vowel=11;
         Consos=6;
     }
     if(kana=="ー"){
-        Vowel=18;
+        Vowel=12;
         Consos=7;
     }
     if(kana=="が"){
-        Vowel=11;
+        Vowel=2;
         Consos=1;
     }
     if(kana=="ぎ"){
-        Vowel=11;
+        Vowel=2;
         Consos=2;
     }
     if(kana=="ぐ"){
-        Vowel=11;
+        Vowel=2;
         Consos=3;
     }
     if(kana=="げ"){
-        Vowel=11;
+        Vowel=2;
         Consos=4;
     }
     if(kana=="ご"){
-        Vowel=11;
+        Vowel=2;
         Consos=5;
     }
     if(kana=="ざ"){
-        Vowel=12;
+        Vowel=3;
         Consos=1;
     }
     if(kana=="じ"){
-        Vowel=12;
+        Vowel=3;
         Consos=2;
     }
     if(kana=="ず"){
-        Vowel=12;
+        Vowel=3;
         Consos=3;
     }
     if(kana=="ぜ"){
-        Vowel=12;
+        Vowel=3;
         Consos=4;
     }
     if(kana=="ぞ"){
-        Vowel=12;
+        Vowel=3;
         Consos=5;
     }
     if(kana=="だ"){
-        Vowel=13;
+        Vowel=4;
         Consos=1;
     }
     if(kana=="ぢ"){
-        Vowel=13;
+        Vowel=4;
         Consos=2;
     }
     if(kana=="づ"){
-        Vowel=13;
+        Vowel=4;
         Consos=3;
     }
     if(kana=="で"){
-        Vowel=13;
+        Vowel=4;
         Consos=4;
     }
     if(kana=="ど"){
-        Vowel=13;
+        Vowel=4;
         Consos=5;
     }
     if(kana=="ば"){
-        Vowel=14;
+        Vowel=6;
         Consos=1;
     }
     if(kana=="び"){
-        Vowel=14;
+        Vowel=6;
         Consos=2;
     }
     if(kana=="ぶ"){
-        Vowel=14;
+        Vowel=6;
         Consos=3;
     }
     if(kana=="べ"){
-        Vowel=14;
+        Vowel=6;
         Consos=4;
     }
     if(kana=="ぼ"){
-        Vowel=14;
+        Vowel=6;
         Consos=5;
     }
     if(kana=="ぱ"){
-        Vowel=15;
+        Vowel=6;
         Consos=1;
     }
     if(kana=="ぴ"){
-        Vowel=15;
+        Vowel=6;
         Consos=2;
     }
     if(kana=="ぷ"){
-        Vowel=15;
+        Vowel=6;
         Consos=3;
     }
     if(kana=="ぺ"){
-        Vowel=15;
+        Vowel=6;
         Consos=4;
     }
     if(kana=="ぽ"){
-        Vowel=15;
+        Vowel=6;
         Consos=5;
     }
     if(kana=="ゃ"){
-        Vowel=16;
+        Vowel=8;
         Consos=1;
     }
     if(kana=="ゅ"){
-        Vowel=16;
+        Vowel=8;
         Consos=3;
     }
     if(kana=="ょ"){
-        Vowel=16;
+        Vowel=8;
         Consos=5;
     }
 }
