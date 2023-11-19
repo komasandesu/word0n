@@ -10,12 +10,12 @@ type Props = {
 
 const ShowAnswers = ({ answer,correct_answer }: Props) => {
 
-    const V_EAT_BITE: string = GetVowelsEatBite(answer,correct_answer);
     const C_EAT_BITE: string = GetConsosEatBite(answer,correct_answer);
+    const V_EAT_BITE: string = GetVowelsEatBite(answer,correct_answer);
 
     return (
         <ul className="list-style-none">
-        <li>{answer} : <a style={{color: "red"}}>{V_EAT_BITE}</a> , <a style={{color: "blue"}}>{C_EAT_BITE}</a> </li>
+        <li>{answer} : <a style={{color: "red"}}>{C_EAT_BITE}</a> , <a style={{color: "blue"}}>{V_EAT_BITE}</a> </li>
         </ul>
     );
 }
