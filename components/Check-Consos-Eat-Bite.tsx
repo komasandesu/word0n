@@ -9,11 +9,11 @@ function GetConsosEatBite (answer:string,correct_answer:string): string  {
     let correct_answer_Consos: Array<number> = new Array(19).fill(0);
 
     for (let i:number = 0; i < 4; i++) {
-        if( KanaToRomaji(answer[i])[1]==KanaToRomaji(correct_answer[i])[1] ){
+        if( KanaToRomaji(answer[i])[0]==KanaToRomaji(correct_answer[i])[0] ){
             Consos_EAT++;
         }
-        answer_Consos[ KanaToRomaji(answer[i])[1] ]++;
-        correct_answer_Consos[ KanaToRomaji(correct_answer[i])[1] ]++;
+        answer_Consos[ KanaToRomaji(answer[i])[0] ]++;
+        correct_answer_Consos[ KanaToRomaji(correct_answer[i])[0] ]++;
     }
 
     for (let i:number = 0; i < 19; i++) {
