@@ -9,11 +9,11 @@ function GetVowelsEatBite (answer:string,correct_answer:string): string  {
     let correct_answer_Vowels: Array<number> = new Array(19).fill(0);
 
     for (let i:number = 0; i < 4; i++) {
-        if( KanaToRomaji(answer[i])[0]==KanaToRomaji(correct_answer[i])[0] ){
+        if( KanaToRomaji(answer[i])[1]==KanaToRomaji(correct_answer[i])[1] ){
             Vowels_EAT++;
         }
-        answer_Vowels[ KanaToRomaji(answer[i])[0] ]++;
-        correct_answer_Vowels[ KanaToRomaji(correct_answer[i])[0] ]++;
+        answer_Vowels[ KanaToRomaji(answer[i])[1] ]++;
+        correct_answer_Vowels[ KanaToRomaji(correct_answer[i])[1] ]++;
     }
 
     for (let i:number = 0; i < 19; i++) {
