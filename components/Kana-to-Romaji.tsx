@@ -1,320 +1,320 @@
-let Consos:number = 0;
+let Conso:number = 0;
 let Vowel:number = 0;
 
 function ChangeNum (kana:string) {
     if(kana=="あ"){
-        Consos=1;
+        Conso=1;
         Vowel=1;
     }
     if(kana=="い"){
-        Consos=1;
+        Conso=1;
         Vowel=2;
     }
     if(kana=="う"){
-        Consos=1;
+        Conso=1;
         Vowel=3;
     }
     if(kana=="え"){
-        Consos=1;
+        Conso=1;
         Vowel=4;
     }
     if(kana=="お"){
-        Consos=1;
+        Conso=1;
         Vowel=5;
     }
     if(kana=="か"){
-        Consos=2;
+        Conso=2;
         Vowel=1;
     }
     if(kana=="き"){
-        Consos=2;
+        Conso=2;
         Vowel=2;
     }
     if(kana=="く"){
-        Consos=2;
+        Conso=2;
         Vowel=3;
     }
     if(kana=="け"){
-        Consos=2;
+        Conso=2;
         Vowel=4;
     }
     if(kana=="こ"){
-        Consos=2;
+        Conso=2;
         Vowel=5;
     }
     if(kana=="さ"){
-        Consos=3;
+        Conso=3;
         Vowel=1;
     }
     if(kana=="し"){
-        Consos=3;
+        Conso=3;
         Vowel=2;
     }
     if(kana=="す"){
-        Consos=3;
+        Conso=3;
         Vowel=3;
     }
     if(kana=="せ"){
-        Consos=3;
+        Conso=3;
         Vowel=4;
     }
     if(kana=="そ"){
-        Consos=3;
+        Conso=3;
         Vowel=5;
     }
     if(kana=="た"){
-        Consos=4;
+        Conso=4;
         Vowel=1;
     }
     if(kana=="ち"){
-        Consos=4;
+        Conso=4;
         Vowel=2;
     }
     if(kana=="つ"){
-        Consos=4;
+        Conso=4;
         Vowel=3;
     }
     if(kana=="て"){
-        Consos=4;
+        Conso=4;
         Vowel=4;
     }
     if(kana=="と"){
-        Consos=4;
+        Conso=4;
         Vowel=5;
     }
     if(kana=="な"){
-        Consos=5;
+        Conso=5;
         Vowel=1;
     }
     if(kana=="に"){
-        Consos=5;
+        Conso=5;
         Vowel=2;
     }
     if(kana=="ぬ"){
-        Consos=5;
+        Conso=5;
         Vowel=3;
     }
     if(kana=="ね"){
-        Consos=5;
+        Conso=5;
         Vowel=4;
     }
     if(kana=="の"){
-        Consos=5;
+        Conso=5;
         Vowel=5;
     }
     if(kana=="は"){
-        Consos=6;
+        Conso=6;
         Vowel=1;
     }
     if(kana=="ひ"){
-        Consos=6;
+        Conso=6;
         Vowel=2;
     }
     if(kana=="ふ"){
-        Consos=6;
+        Conso=6;
         Vowel=3;
     }
     if(kana=="へ"){
-        Consos=6;
+        Conso=6;
         Vowel=4;
     }
     if(kana=="ほ"){
-        Consos=6;
+        Conso=6;
         Vowel=5;
     }
     if(kana=="ま"){
-        Consos=7;
+        Conso=7;
         Vowel=1;
     }
     if(kana=="み"){
-        Consos=7;
+        Conso=7;
         Vowel=2;
     }
     if(kana=="む"){
-        Consos=7;
+        Conso=7;
         Vowel=3;
     }
     if(kana=="め"){
-        Consos=7;
+        Conso=7;
         Vowel=4;
     }
     if(kana=="も"){
-        Consos=7;
+        Conso=7;
         Vowel=5;
     }
     if(kana=="や"){
-        Consos=8;
+        Conso=8;
         Vowel=1;
     }
     if(kana=="ゆ"){
-        Consos=8;
+        Conso=8;
         Vowel=3;
     }
     if(kana=="よ"){
-        Consos=8;
+        Conso=8;
         Vowel=5;
     }
     if(kana=="ら"){
-        Consos=9;
+        Conso=9;
         Vowel=1;
     }
     if(kana=="り"){
-        Consos=9;
+        Conso=9;
         Vowel=2;
     }
     if(kana=="る"){
-        Consos=9;
+        Conso=9;
         Vowel=3;
     }
     if(kana=="れ"){
-        Consos=9;
+        Conso=9;
         Vowel=4;
     }
     if(kana=="ろ"){
-        Consos=9;
+        Conso=9;
         Vowel=5;
     }
     if(kana=="わ"){
-        Consos=10;
+        Conso=10;
         Vowel=1;
     }
     if(kana=="ゐ"){
-        Consos=10;
+        Conso=10;
         Vowel=2;
     }
     if(kana=="ゑ"){
-        Consos=10;
+        Conso=10;
         Vowel=4;
     }
     if(kana=="を"){
-        Consos=10;
+        Conso=10;
         Vowel=5;
     }
     if(kana=="ん"){
-        Consos=11;
+        Conso=11;
         Vowel=6;
     }
     if(kana=="ー"){
-        Consos=12;
+        Conso=12;
         Vowel=7;
     }
     if(kana=="が"){
-        Consos=2;
+        Conso=2;
         Vowel=1;
     }
     if(kana=="ぎ"){
-        Consos=2;
+        Conso=2;
         Vowel=2;
     }
     if(kana=="ぐ"){
-        Consos=2;
+        Conso=2;
         Vowel=3;
     }
     if(kana=="げ"){
-        Consos=2;
+        Conso=2;
         Vowel=4;
     }
     if(kana=="ご"){
-        Consos=2;
+        Conso=2;
         Vowel=5;
     }
     if(kana=="ざ"){
-        Consos=3;
+        Conso=3;
         Vowel=1;
     }
     if(kana=="じ"){
-        Consos=3;
+        Conso=3;
         Vowel=2;
     }
     if(kana=="ず"){
-        Consos=3;
+        Conso=3;
         Vowel=3;
     }
     if(kana=="ぜ"){
-        Consos=3;
+        Conso=3;
         Vowel=4;
     }
     if(kana=="ぞ"){
-        Consos=3;
+        Conso=3;
         Vowel=5;
     }
     if(kana=="だ"){
-        Consos=4;
+        Conso=4;
         Vowel=1;
     }
     if(kana=="ぢ"){
-        Consos=4;
+        Conso=4;
         Vowel=2;
     }
     if(kana=="づ"){
-        Consos=4;
+        Conso=4;
         Vowel=3;
     }
     if(kana=="で"){
-        Consos=4;
+        Conso=4;
         Vowel=4;
     }
     if(kana=="ど"){
-        Consos=4;
+        Conso=4;
         Vowel=5;
     }
     if(kana=="ば"){
-        Consos=6;
+        Conso=6;
         Vowel=1;
     }
     if(kana=="び"){
-        Consos=6;
+        Conso=6;
         Vowel=2;
     }
     if(kana=="ぶ"){
-        Consos=6;
+        Conso=6;
         Vowel=3;
     }
     if(kana=="べ"){
-        Consos=6;
+        Conso=6;
         Vowel=4;
     }
     if(kana=="ぼ"){
-        Consos=6;
+        Conso=6;
         Vowel=5;
     }
     if(kana=="ぱ"){
-        Consos=6;
+        Conso=6;
         Vowel=1;
     }
     if(kana=="ぴ"){
-        Consos=6;
+        Conso=6;
         Vowel=2;
     }
     if(kana=="ぷ"){
-        Consos=6;
+        Conso=6;
         Vowel=3;
     }
     if(kana=="ぺ"){
-        Consos=6;
+        Conso=6;
         Vowel=4;
     }
     if(kana=="ぽ"){
-        Consos=6;
+        Conso=6;
         Vowel=5;
     }
     if(kana=="ゃ"){
-        Consos=8;
+        Conso=8;
         Vowel=1;
     }
     if(kana=="ゅ"){
-        Consos=8;
+        Conso=8;
         Vowel=3;
     }
     if(kana=="ょ"){
-        Consos=8;
+        Conso=8;
         Vowel=5;
     }
 }
 
 function KanaToRomaji (kana:string): [number, number]  {
     ChangeNum(kana);
-    return [Consos , Vowel];
+    return [Conso , Vowel];
 }
 
 export default KanaToRomaji;
