@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 type Props = {
+    times: number
     turn: number
 }
 
@@ -14,9 +15,9 @@ function copyTextToClipboard(text: string) {
 }  
 
 
-const ShowResults = ({ turn }: Props) => {
+const ShowResults = ({ times,turn }: Props) => {
     let result: string = turn+"ターンでクリア！";
-    let share_result = "Word0n"+"\n"+result;
+    let share_result = "Word0n "+times+"\n"+result+"\n"+"https://word0n.vercel.app/";
     return (
         <>
         <h2>{result}</h2>
