@@ -310,6 +310,10 @@ function ChangeNum (kana:string) {
         Conso=8;
         Vowel=5;
     }
+    if(kana=="っ"){
+        Conso=4;
+        Vowel=3;
+    }
 }
 
 function KanaToRomaji (kana:string): [number, number]  {
