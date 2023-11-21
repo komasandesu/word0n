@@ -11,8 +11,8 @@ import GetDays from '../components/Get-Days'
 const inter = Inter({ subsets: ['latin'] });
 
 //正解
-const current_count = GetDays();
-const correct_answer = json[current_count];
+let current_count = -1;
+let correct_answer = "";
 
 
 //ゲーム終了
@@ -25,6 +25,12 @@ const Home = () => {
   const handleValueChange = (newValue: string) => {
     setAnswers([...answers,newValue]);
   };
+  
+
+  if(current_count == -1){
+    current_count = GetDays();
+    correct_answer = json[current_count];
+  }
 
   
   return (

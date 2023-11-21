@@ -1,9 +1,13 @@
 function GetDays(): number  {
 
-    const start_date = new Date("2023-11-19T00:00:00").getTime();
-    const date = new Date(Date.now() + ((new Date().getTimezoneOffset() + (9 * 60)) * 60 * 1000)).getTime();
+    const start_date = new Date("2023-11-18T00:00:00").getTime();
+    const date = new Date(Date.now()).getTime();
 
-    const Elapsed_days = Math.floor(date / 86400000)-Math.floor(start_date / 86400000);
+    const Elapsed_days = Math.floor( (date-start_date)/86400000 );
+
+    //console.log(start_date);
+    //console.log(date);
+    //console.log(Elapsed_days);
 
     return Elapsed_days;
 }
