@@ -314,6 +314,26 @@ function ChangeNum (kana:string) {
         Conso=4;
         Vowel=3;
     }
+    if(kana=="ぁ"){
+        Conso=1;
+        Vowel=1;
+    }
+    if(kana=="ぃ"){
+        Conso=1;
+        Vowel=2;
+    }
+    if(kana=="ぅ"){
+        Conso=1;
+        Vowel=3;
+    }
+    if(kana=="ぇ"){
+        Conso=1;
+        Vowel=4;
+    }
+    if(kana=="ぉ"){
+        Conso=1;
+        Vowel=5;
+    }
 }
 
 function KanaToRomaji (kana:string): [number, number]  {
